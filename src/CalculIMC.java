@@ -6,7 +6,7 @@
 
 /**
  *
- * @author Jeremy
+ * @author Argelli Angelo, Duvernay François
  */
 public class CalculIMC extends java.awt.Frame {
 
@@ -39,7 +39,7 @@ public class CalculIMC extends java.awt.Frame {
         setMinimumSize(new java.awt.Dimension(300, 200));
         setName("frmMain"); // NOI18N
         setSize(new java.awt.Dimension(300, 200));
-        setTitle("Calcul de l’IMC ");
+        setTitle("Calculs de l’IMC ");
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 exitForm(evt);
